@@ -5,7 +5,7 @@ Plugin Name: DM Custom Meta Boxes
 Plugin URI: http://designmissoula.com/
 Description: This is not just a plugin, awesome.
 Author: Bradford Knowlton
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://bradknowlton.com/
 GitHub Plugin URI: https://github.com/DesignMissoula/DM-custom-meta-boxes
 */
@@ -15,7 +15,7 @@ GitHub Plugin URI: https://github.com/DesignMissoula/DM-custom-meta-boxes
  */
 function DM_add_meta_box() {
 
-	$screens = array( 'post', 'page' );
+	$screens = array( 'post', 'page', 'gourmet_product' );
 
 	foreach ( $screens as $screen ) {
 
